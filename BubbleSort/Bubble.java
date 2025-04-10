@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 public class Bubble {
     public static void main(String[] args) {
+        System.out.println("Before Sorting :");
         int[] arr = { 86, 15, 84, 93, 73, 97, 69, 2 };
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
@@ -14,6 +15,7 @@ public class Bubble {
                 }
             }
         }
+        System.out.println("After Sorting : ");
         System.out.println(Arrays.toString(arr));
     }
 }
